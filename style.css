@@ -1,5 +1,30 @@
+#answer {
+  font-size: 700%;
+  color: linear-gradient(to right, black , yellow, red);
+}
+
+#score {
+	font-size: 200%;
+}
+
 .yes {
+
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(.42, #000000), color-stop(0.5, #ffcc00), color-stop(.6, #ff0000));
+  background-image: gradient( linear, left top, right top, color-stop(.42, #000000), color-stop(0.5, #ffcc00), color-stop(.6, #ff0000));
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+#content {
   text-align: center;
-  color: green;
-  font-size: 475%;
+  color: black;
+}
+
+#gif {
+  width:90%;
+  height:0;
+  padding-bottom:56%;
+  padding-left:3%;
+  position:relative;
 }
