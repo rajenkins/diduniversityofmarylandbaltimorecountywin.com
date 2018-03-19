@@ -1,6 +1,5 @@
 #answer {
   font-size: 700%;
-  color: linear-gradient(to right, black , yellow, red);
 }
 
 #score {
@@ -8,12 +7,11 @@
 }
 
 .yes {
+  color: green;
+}
 
-  background-image: -webkit-gradient( linear, left top, right top, color-stop(.42, #000000), color-stop(0.5, #ffcc00), color-stop(.6, #ff0000));
-  background-image: gradient( linear, left top, right top, color-stop(.42, #000000), color-stop(0.5, #ffcc00), color-stop(.6, #ff0000));
-  color:transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
+.no {
+  color: red;
 }
 
 #content {
